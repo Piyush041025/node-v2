@@ -18,7 +18,7 @@ export class CalcService {
 
       const result = this.evaluate(tokens);
 
-      return { result: result.toString() };
+      return { result: result };
     } catch (error) {
       return {
         statusCode: 400,
